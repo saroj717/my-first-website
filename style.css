@@ -1,0 +1,197 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: verdana;
+}
+.header {
+   min-height: 100vh;
+   width: 100%;
+   background-image: url(images/exp.jpeg);
+   background-position: center;
+   background-size: cover;
+   position: relative;
+}
+nav {
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+#logo {
+    height: 90px;
+    width: 90px;
+    border-radius: 60%;
+}
+.nav-links {
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a {
+    color: white;
+    text-decoration: none;
+}
+.nav-links ul li::after {
+    content:'';
+    width: 0;
+    height: 2px;
+    background: rgb(236, 121, 12);
+    display: block;
+    margin: auto;
+}
+.nav-links ul li:hover::after {
+    width: 100%;
+    transition: 0.5s;
+}
+.saroj {
+    width: 90%;
+    color: bisque;
+    position: relative;
+    top: 120px;
+    left: 60px;
+    text-align: center;
+}
+.saroj h3 {
+    font-size: 80px;
+    color: bisque;
+    padding: 20px;
+}
+.saroj h2 {
+    font-size: 30px;
+    padding: 20px;
+}
+.saroj p {
+    font-size: 22px;
+    padding: 20px;
+}
+
+/* ------ About Me ------ */
+
+.about-me {
+    min-height: 100vh;
+    width: 100%;
+    background-color: antiquewhite;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.about-me img {
+    border-radius: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    height: 800px;
+    padding: 50px;
+}
+.about-me h3  {
+    text-align: center;
+    font-size: 50px;
+    padding: 25px;
+}
+.about-me p {
+    font-size: 20px;
+    padding: 25px;
+    text-align: center;
+}
+
+/* ------- Education ------ */
+.education {
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(images/edu.jpeg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.education h2 {
+    text-align: center;
+    font-size: 45px;
+    padding: 30px;
+    color: rgb(236, 244, 244);
+}
+.education p {
+    text-align: center;
+    font-size: 20px;
+    padding: 18px;
+    color: white;
+}
+
+/* ------- Skills -------- */
+.skills {
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/skills.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    padding: 25px;
+}
+.skills h3 {
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    padding: 50px;
+}
+.skills ul li {
+    font-size: 18px bold;
+    color: wheat;
+    padding: 8px;
+    text-align: center; 
+}
+
+/* ------- Experience ------- */
+.experience {
+height: 100vh;
+width: 100%;
+background-image: url(images/exp.jpeg);
+background-position: center;
+background-size: cover;
+position: relative;
+}
+.experience h2 {
+    text-align: center;
+    font-size: 45px;
+    color: white;
+    padding: 30px;
+}
+.experience p {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    padding: 25px;
+}
+.experience ul li {
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    padding: 15px;
+}
+
+/* ------ Contact ------- */
+.contact {
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/background.jpeg);
+    background-size: auto;
+    background-position: center;
+    position: relative;
+}
+.contact h3 {
+    text-align: center;
+    font-size: 45px;
+    color: white;
+    padding: 30px;
+}
+.contact p{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    padding: 25px;   
+}
